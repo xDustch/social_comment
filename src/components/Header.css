@@ -1,0 +1,20 @@
+.card{
+    display: flex;
+    flex-direction: row;
+}
+
+h5{
+    color: grey;
+}
+img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+.image-container{
+    width: 100px;
+    height: 100px;
+
+    display: block
+}
