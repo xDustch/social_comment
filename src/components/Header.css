@@ -1,20 +1,31 @@
-.card{
-    display: flex;
-    flex-direction: row;
+.user{
+    background-color: #e6ffff;
+    text-align: left;
+    height: 50px;
+    border-radius: 0 0 15px 15px;
 }
+.fullname{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 10px;
 
-h5{
+}
+.username{
     color: grey;
+    text-align: left;
+    font-size: 15px;
+
 }
 img{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    float: left;
+    padding: 5px;
 }
 
-.image-container{
-    width: 100px;
-    height: 100px;
-
-    display: block
+.date{
+    float: right;
+    color: darkgray;
+    font-size: 15px;
 }

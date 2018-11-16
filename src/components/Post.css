@@ -1,0 +1,11 @@
+.Post{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+
+.content{
+    text-align: left;
+    padding: 10px;
+    font-size: 14px;
+}

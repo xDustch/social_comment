@@ -5,14 +5,14 @@ class Header extends Component{
 
     render(){
         return(
-            <div className="card">
-                <div className="img-container">
+            <div className="user">
+                
                     <img src={this.props.profile_pic} alt="profile pic"></img>
-                </div>
+                
                 
                 <span>
-                    <h1>{this.props.fullname}</h1>
-                    <h5>{this.props.username}</h5>
+                    <span className="fullname">{this.props.fullname}</span><span className="date">{this.props.date}</span>
+                    <span className="username">{this.props.username}</span>
                 </span>
             </div>
         )
